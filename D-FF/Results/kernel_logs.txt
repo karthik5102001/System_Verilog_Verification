@@ -1,0 +1,122 @@
+# KERNEL: [RESET] : din = 0 , dout = 0 , reset = 0
+# KERNEL: RESET DONE
+# KERNEL: [GEN] : Done putting data to mailbox 
+# KERNEL: [GEN] : din = 1 , dout = 0 , reset = 0
+# KERNEL: The Driver has done its work
+# KERNEL: [DRV] : din = 1 , dout = 0 , reset = 0
+# KERNEL: [MON] : Data has delivered to ref model
+# KERNEL: [MON] : din = 0 , dout = 1 , reset = 0
+# KERNEL: [RM] : DATA MATCHED
+# KERNEL: DOUT IS 1
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: THE VALID COUNT IS 1
+# KERNEL: THE IN-VALID COUNT IS 0
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: [GEN] : Done putting data to mailbox 
+# KERNEL: [GEN] : din = 8 , dout = 0 , reset = 0
+# KERNEL: The Driver has done its work
+# KERNEL: [DRV] : din = 8 , dout = 0 , reset = 0
+# KERNEL: [MON] : Data has delivered to ref model
+# KERNEL: [MON] : din = 0 , dout = 8 , reset = 0
+# KERNEL: [RM] : DATA MATCHED
+# KERNEL: DOUT IS 8
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: THE VALID COUNT IS 2
+# KERNEL: THE IN-VALID COUNT IS 0
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: [GEN] : Done putting data to mailbox 
+# KERNEL: [GEN] : din = 10 , dout = 0 , reset = 0
+# KERNEL: The Driver has done its work
+# KERNEL: [DRV] : din = 10 , dout = 0 , reset = 0
+# KERNEL: [MON] : Data has delivered to ref model
+# KERNEL: [MON] : din = 0 , dout = 10 , reset = 0
+# KERNEL: [RM] : DATA MATCHED
+# KERNEL: DOUT IS 10
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: THE VALID COUNT IS 3
+# KERNEL: THE IN-VALID COUNT IS 0
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: [GEN] : Done putting data to mailbox 
+# KERNEL: [GEN] : din = 14 , dout = 0 , reset = 0
+# KERNEL: The Driver has done its work
+# KERNEL: [DRV] : din = 14 , dout = 0 , reset = 0
+# KERNEL: [MON] : Data has delivered to ref model
+# KERNEL: [MON] : din = 0 , dout = 14 , reset = 0
+# KERNEL: [RM] : DATA MATCHED
+# KERNEL: DOUT IS 14
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: THE VALID COUNT IS 4
+# KERNEL: THE IN-VALID COUNT IS 0
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: [GEN] : Done putting data to mailbox 
+# KERNEL: [GEN] : din = 7 , dout = 0 , reset = 0
+# KERNEL: The Driver has done its work
+# KERNEL: [DRV] : din = 7 , dout = 0 , reset = 0
+# KERNEL: [MON] : Data has delivered to ref model
+# KERNEL: [MON] : din = 0 , dout = 7 , reset = 0
+# KERNEL: [RM] : DATA MATCHED
+# KERNEL: DOUT IS 7
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: THE VALID COUNT IS 5
+# KERNEL: THE IN-VALID COUNT IS 0
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: [GEN] : Done putting data to mailbox 
+# KERNEL: [GEN] : din = 14 , dout = 0 , reset = 0
+# KERNEL: The Driver has done its work
+# KERNEL: [DRV] : din = 14 , dout = 0 , reset = 0
+# KERNEL: [MON] : Data has delivered to ref model
+# KERNEL: [MON] : din = 0 , dout = 14 , reset = 0
+# KERNEL: [RM] : DATA MATCHED
+# KERNEL: DOUT IS 14
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: THE VALID COUNT IS 6
+# KERNEL: THE IN-VALID COUNT IS 0
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: [GEN] : Done putting data to mailbox 
+# KERNEL: [GEN] : din = 4 , dout = 0 , reset = 0
+# KERNEL: The Driver has done its work
+# KERNEL: [DRV] : din = 4 , dout = 0 , reset = 0
+# KERNEL: [MON] : Data has delivered to ref model
+# KERNEL: [MON] : din = 0 , dout = 4 , reset = 0
+# KERNEL: [RM] : DATA MATCHED
+# KERNEL: DOUT IS 4
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: THE VALID COUNT IS 7
+# KERNEL: THE IN-VALID COUNT IS 0
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: [GEN] : Done putting data to mailbox 
+# KERNEL: [GEN] : din = 13 , dout = 0 , reset = 0
+# KERNEL: The Driver has done its work
+# KERNEL: [DRV] : din = 13 , dout = 0 , reset = 0
+# KERNEL: [MON] : Data has delivered to ref model
+# KERNEL: [MON] : din = 0 , dout = 13 , reset = 0
+# KERNEL: [RM] : DATA MATCHED
+# KERNEL: DOUT IS 13
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: THE VALID COUNT IS 8
+# KERNEL: THE IN-VALID COUNT IS 0
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: [GEN] : Done putting data to mailbox 
+# KERNEL: [GEN] : din = 8 , dout = 0 , reset = 0
+# KERNEL: The Driver has done its work
+# KERNEL: [DRV] : din = 8 , dout = 0 , reset = 0
+# KERNEL: [MON] : Data has delivered to ref model
+# KERNEL: [MON] : din = 0 , dout = 8 , reset = 0
+# KERNEL: [RM] : DATA MATCHED
+# KERNEL: DOUT IS 8
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: THE VALID COUNT IS 9
+# KERNEL: THE IN-VALID COUNT IS 0
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: [GEN] : Done putting data to mailbox 
+# KERNEL: [GEN] : din = 7 , dout = 0 , reset = 0
+# KERNEL: The Driver has done its work
+# KERNEL: [DRV] : din = 7 , dout = 0 , reset = 0
+# KERNEL: [MON] : Data has delivered to ref model
+# KERNEL: [MON] : din = 0 , dout = 7 , reset = 0
+# KERNEL: [RM] : DATA MATCHED
+# KERNEL: DOUT IS 7
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: THE VALID COUNT IS 10
+# KERNEL: THE IN-VALID COUNT IS 0
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
