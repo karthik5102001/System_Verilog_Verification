@@ -1,0 +1,219 @@
+# KERNEL: ---------------------------------
+# KERNEL: [DRIVE] : RESET DONE
+# KERNEL: ---------------------------------
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [GEN] controller Value sent to driver = 1, iteration is 1
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [DRIV] : CONTROL = 1
+# KERNEL: [DRIVE] : WRITE START
+# KERNEL: ---------------------------
+# KERNEL: [DRIVE] : DATA ARE : WR = 1, RD = 0, DATAIN = 15, FULL = 0 , EMPTY = 1
+# KERNEL: [DRIVE] : WRITE DONE, DATAIN = 15
+# KERNEL: ---------------------------
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: [WRITE FROM DESIGN]: VALUE 15
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: ---------------------------
+# KERNEL: [MONITOR] : FETCH DONE 
+# KERNEL: [MONITOR] : DATA ARE : WR = 1, RD = 0, DATAIN = 15, DATAOUT = 0, FULL = 0 , EMPTY = 1
+# KERNEL: ---------------------------
+# KERNEL: [SCRB] : WR = 1, RD = 0, DATAIN = 15 DATAOUT = 0 FULL = 0 EMPTY = 1
+# KERNEL: (LOCAL) PUSH FRONT SUCESSFULL
+# KERNEL: [SCRB] : WRITTEN VALUE FORM [MONI] = 15
+# KERNEL: --------------------------
+# KERNEL: ######################--END--########################
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [GEN] controller Value sent to driver = 1, iteration is 2
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [DRIV] : CONTROL = 1
+# KERNEL: [DRIVE] : WRITE START
+# KERNEL: ---------------------------
+# KERNEL: [DRIVE] : DATA ARE : WR = 1, RD = 0, DATAIN = 18, FULL = 0 , EMPTY = 0
+# KERNEL: [DRIVE] : WRITE DONE, DATAIN = 18
+# KERNEL: ---------------------------
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: [WRITE FROM DESIGN]: VALUE 18
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: ---------------------------
+# KERNEL: [MONITOR] : FETCH DONE 
+# KERNEL: [MONITOR] : DATA ARE : WR = 1, RD = 0, DATAIN = 18, DATAOUT = 0, FULL = 0 , EMPTY = 0
+# KERNEL: ---------------------------
+# KERNEL: [SCRB] : WR = 1, RD = 0, DATAIN = 18 DATAOUT = 0 FULL = 0 EMPTY = 0
+# KERNEL: (LOCAL) PUSH FRONT SUCESSFULL
+# KERNEL: [SCRB] : WRITTEN VALUE FORM [MONI] = 18 15
+# KERNEL: --------------------------
+# KERNEL: ######################--END--########################
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [GEN] controller Value sent to driver = 1, iteration is 3
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [DRIV] : CONTROL = 1
+# KERNEL: [DRIVE] : WRITE START
+# KERNEL: ---------------------------
+# KERNEL: [DRIVE] : DATA ARE : WR = 1, RD = 0, DATAIN = 5, FULL = 0 , EMPTY = 0
+# KERNEL: [DRIVE] : WRITE DONE, DATAIN = 5
+# KERNEL: ---------------------------
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: [WRITE FROM DESIGN]: VALUE 5
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: ---------------------------
+# KERNEL: [MONITOR] : FETCH DONE 
+# KERNEL: [MONITOR] : DATA ARE : WR = 1, RD = 0, DATAIN = 5, DATAOUT = 0, FULL = 0 , EMPTY = 0
+# KERNEL: ---------------------------
+# KERNEL: [SCRB] : WR = 1, RD = 0, DATAIN = 5 DATAOUT = 0 FULL = 0 EMPTY = 0
+# KERNEL: (LOCAL) PUSH FRONT SUCESSFULL
+# KERNEL: [SCRB] : WRITTEN VALUE FORM [MONI] = 5 18 15
+# KERNEL: --------------------------
+# KERNEL: ######################--END--########################
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [GEN] controller Value sent to driver = 1, iteration is 4
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [DRIV] : CONTROL = 1
+# KERNEL: [DRIVE] : WRITE START
+# KERNEL: ---------------------------
+# KERNEL: [DRIVE] : DATA ARE : WR = 1, RD = 0, DATAIN = 1, FULL = 0 , EMPTY = 0
+# KERNEL: [DRIVE] : WRITE DONE, DATAIN = 1
+# KERNEL: ---------------------------
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: [WRITE FROM DESIGN]: VALUE 1
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: ---------------------------
+# KERNEL: [MONITOR] : FETCH DONE 
+# KERNEL: [MONITOR] : DATA ARE : WR = 1, RD = 0, DATAIN = 1, DATAOUT = 0, FULL = 0 , EMPTY = 0
+# KERNEL: ---------------------------
+# KERNEL: [SCRB] : WR = 1, RD = 0, DATAIN = 1 DATAOUT = 0 FULL = 0 EMPTY = 0
+# KERNEL: (LOCAL) PUSH FRONT SUCESSFULL
+# KERNEL: [SCRB] : WRITTEN VALUE FORM [MONI] = 1 5 18 15
+# KERNEL: --------------------------
+# KERNEL: ######################--END--########################
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [GEN] controller Value sent to driver = 1, iteration is 5
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [DRIV] : CONTROL = 1
+# KERNEL: [DRIVE] : WRITE START
+# KERNEL: ---------------------------
+# KERNEL: [DRIVE] : DATA ARE : WR = 1, RD = 0, DATAIN = 6, FULL = 0 , EMPTY = 0
+# KERNEL: [DRIVE] : WRITE DONE, DATAIN = 6
+# KERNEL: ---------------------------
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: [WRITE FROM DESIGN]: VALUE 6
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: ---------------------------
+# KERNEL: [MONITOR] : FETCH DONE 
+# KERNEL: [MONITOR] : DATA ARE : WR = 1, RD = 0, DATAIN = 6, DATAOUT = 0, FULL = 0 , EMPTY = 0
+# KERNEL: ---------------------------
+# KERNEL: [SCRB] : WR = 1, RD = 0, DATAIN = 6 DATAOUT = 0 FULL = 0 EMPTY = 0
+# KERNEL: (LOCAL) PUSH FRONT SUCESSFULL
+# KERNEL: [SCRB] : WRITTEN VALUE FORM [MONI] = 6 1 5 18 15
+# KERNEL: --------------------------
+# KERNEL: ######################--END--########################
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [GEN] controller Value sent to driver = 0, iteration is 6
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [DRIV] : CONTROL = 0
+# KERNEL: [DRIVE] : READ START
+# KERNEL: ---------------------------
+# KERNEL: [DRIVE] : READ DONE 
+# KERNEL: ---------------------------
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: [READ FROM DESIGN]: VALUE x
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: ---------------------------
+# KERNEL: [MONITOR] : FETCH DONE 
+# KERNEL: [MONITOR] : DATA ARE : WR = 0, RD = 1, DATAIN = 6, DATAOUT = 15, FULL = 0 , EMPTY = 0
+# KERNEL: ---------------------------
+# KERNEL: [SCRB] : WR = 0, RD = 1, DATAIN = 6 DATAOUT = 15 FULL = 0 EMPTY = 0
+# KERNEL: [SCRB] : (LOCAL) VALUE IN TEMP = 15
+# KERNEL: [SCRB] : OUTPUT FROM [MONI] = 15
+# KERNEL: [SCRB] : DATA MATCHED
+# KERNEL: ######################--END--########################
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [GEN] controller Value sent to driver = 0, iteration is 7
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [DRIV] : CONTROL = 0
+# KERNEL: [DRIVE] : READ START
+# KERNEL: ---------------------------
+# KERNEL: [DRIVE] : READ DONE 
+# KERNEL: ---------------------------
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: [READ FROM DESIGN]: VALUE 15
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: ---------------------------
+# KERNEL: [MONITOR] : FETCH DONE 
+# KERNEL: [MONITOR] : DATA ARE : WR = 0, RD = 1, DATAIN = 6, DATAOUT = 18, FULL = 0 , EMPTY = 0
+# KERNEL: ---------------------------
+# KERNEL: [SCRB] : WR = 0, RD = 1, DATAIN = 6 DATAOUT = 18 FULL = 0 EMPTY = 0
+# KERNEL: [SCRB] : (LOCAL) VALUE IN TEMP = 18
+# KERNEL: [SCRB] : OUTPUT FROM [MONI] = 18 15
+# KERNEL: [SCRB] : DATA MATCHED
+# KERNEL: ######################--END--########################
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [GEN] controller Value sent to driver = 0, iteration is 8
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [DRIV] : CONTROL = 0
+# KERNEL: [DRIVE] : READ START
+# KERNEL: ---------------------------
+# KERNEL: [DRIVE] : READ DONE 
+# KERNEL: ---------------------------
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: [READ FROM DESIGN]: VALUE 18
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: ---------------------------
+# KERNEL: [MONITOR] : FETCH DONE 
+# KERNEL: [MONITOR] : DATA ARE : WR = 0, RD = 1, DATAIN = 6, DATAOUT = 5, FULL = 0 , EMPTY = 0
+# KERNEL: ---------------------------
+# KERNEL: [SCRB] : WR = 0, RD = 1, DATAIN = 6 DATAOUT = 5 FULL = 0 EMPTY = 0
+# KERNEL: [SCRB] : (LOCAL) VALUE IN TEMP = 5
+# KERNEL: [SCRB] : OUTPUT FROM [MONI] = 5 18 15
+# KERNEL: [SCRB] : DATA MATCHED
+# KERNEL: ######################--END--########################
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [GEN] controller Value sent to driver = 1, iteration is 9
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [DRIV] : CONTROL = 1
+# KERNEL: [DRIVE] : WRITE START
+# KERNEL: ---------------------------
+# KERNEL: [DRIVE] : DATA ARE : WR = 1, RD = 0, DATAIN = 6, FULL = 0 , EMPTY = 0
+# KERNEL: [DRIVE] : WRITE DONE, DATAIN = 6
+# KERNEL: ---------------------------
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: [WRITE FROM DESIGN]: VALUE 6
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: ---------------------------
+# KERNEL: [MONITOR] : FETCH DONE 
+# KERNEL: [MONITOR] : DATA ARE : WR = 1, RD = 0, DATAIN = 6, DATAOUT = 5, FULL = 0 , EMPTY = 0
+# KERNEL: ---------------------------
+# KERNEL: [SCRB] : WR = 1, RD = 0, DATAIN = 6 DATAOUT = 5 FULL = 0 EMPTY = 0
+# KERNEL: (LOCAL) PUSH FRONT SUCESSFULL
+# KERNEL: [SCRB] : WRITTEN VALUE FORM [MONI] = 6 6 1 5 18 15
+# KERNEL: --------------------------
+# KERNEL: ######################--END--########################
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [GEN] controller Value sent to driver = 0, iteration is 10
+# KERNEL: +++++++++++++++++++++++++++++++++++++++++++++++++++++
+# KERNEL: [DRIV] : CONTROL = 0
+# KERNEL: [DRIVE] : READ START
+# KERNEL: ---------------------------
+# KERNEL: [DRIVE] : READ DONE 
+# KERNEL: ---------------------------
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: [READ FROM DESIGN]: VALUE 5
+# KERNEL: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# KERNEL: ---------------------------
+# KERNEL: [MONITOR] : FETCH DONE 
+# KERNEL: [MONITOR] : DATA ARE : WR = 0, RD = 1, DATAIN = 6, DATAOUT = 1, FULL = 0 , EMPTY = 0
+# KERNEL: ---------------------------
+# KERNEL: [SCRB] : WR = 0, RD = 1, DATAIN = 6 DATAOUT = 1 FULL = 0 EMPTY = 0
+# KERNEL: [SCRB] : (LOCAL) VALUE IN TEMP = 1
+# KERNEL: [SCRB] : OUTPUT FROM [MONI] = 1 5 18 15
+# KERNEL: [SCRB] : DATA MATCHED
+# KERNEL: ######################--END--########################
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# KERNEL: [SCRB] : COUNT = 10
+# KERNEL: [SCRB] : WRITTEN COUNT ARE = 6
+# KERNEL: [SCRB] : READING COUNT ARE = 4
+# KERNEL: [SCRB] : DATA CORRECT ARE = 4
+# KERNEL: [SCRB] : DATA INCORRECT ARE = 0
+# KERNEL: [SCRB] : DATAIN = '{6, 6, 1, 5, 18, 15}
+# KERNEL: [SCRB] : DATAOUT = '{1, 5, 18, 15}
+# KERNEL: [SCRB] : COVERAGE PERCENT = 100.000000
+# KERNEL: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
