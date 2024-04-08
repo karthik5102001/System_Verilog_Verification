@@ -26,8 +26,72 @@ module up_DW_counter( clock,din,load,mode,reset, count);
       else 
         count <= count - 1'b1;
     end
+     // $display("The count is %0d",count);
     end
+
+property  reset_check;
+    @(posedge clock) $rose(reset) |-> ##1  count==0;
+endproperty
+
+RESET : assert property ( reset_check ) $display("RESET PASS"); else $display("RESET FAILED");
+
+
+property load_check;
+   @(posedge clock) load |=> count == din;
+endproperty
+
+LOAD : assert property ( load_check ) $display("LOAD PASS"); else $display("LOAD FAILED");
+
+
+sequence mode_check_1_seq;
+   (~reset) && (mode == 1) && (count >= 11);
+endsequence
+
+property mode_check_1;
+    @(posedge clock) mode_check_1_seq |=> count == 0;
+endproperty 
+
+MODE : assert property ( mode_check_1 ) $display("MODE_CHECK_1 PASS"); else $display("MODE_CHECK_1 FAILED");
+
+
+sequence mode_check_2_seq;
+    (~reset) && (mode == 1) && ( count <= 11 );
+endsequence
+
+property mode_check_2;
+   @(posedge clock) mode_check_2_seq |=> count == $past(count) + 1'b1;
+endproperty
+
+MODE_2 : assert property ( mode_check_1 ) $display("MODE_CHECK_2 PASS"); else $display("MODE_CHECK_2 FAILED");
+
+
+sequence mode_check_3_seq;
+    (~reset) && (mode == 0) && ( count <= 0 );
+endsequence
+
+
+property mode_check_3;
+    @(posedge clock) mode_check_3_seq |=> count == 4'd12;
+endproperty
+
+MODE_3 : assert property ( mode_check_3 ) $display("MODE_CHECK_3 PASS"); else $display("MODE_CHECK_3 FAILED");
+
+
+sequence mode_check_4_seq;
+    (~reset) && (mode == 0) ;
+endsequence
+
+
+property mode_check_4;
+           @(posedge clock) mode_check_4_seq |=> count == $past(count) + 1'b1;
+endproperty
+
+MODE_4 : assert property ( mode_check_4 ) $display("MODE_CHECK_4 PASS"); else $display("MODE_CHECK_4 FAILED");
+
+
+
 endmodule
+
 
 
 /*
@@ -97,3 +161,4 @@ module test();
 
 initial $monitor($time,"the reset=%0d \t mode = %0d \t load = %0d \t din = %0d \t count = %0d",reset,mode,load,din,count);
 endmodule
+*/

@@ -1,5 +1,4 @@
 
-
 ////////////////////////////////////////////////INTERFACE//////////////////////////////////////////
 
 
@@ -553,7 +552,7 @@ module TopModule();
   up_DW_counter DUV (.clock(clock), .din(count.din), .load(count.load), .mode(count.mode), .reset(count.reset), .count(count.count));
   
   initial begin
-    no_of_transaction = 200;
+    no_of_transaction = 10;
     test_1 = new(count,count,count);
     test_1.build;
     test_1.run;
@@ -573,3 +572,18 @@ module TopModule();
 endmodule
 
 //////////////////////////////////////////////////THE-END//////////////////////////////////////////////////            
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+

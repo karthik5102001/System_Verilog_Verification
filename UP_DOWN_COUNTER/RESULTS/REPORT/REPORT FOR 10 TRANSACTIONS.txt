@@ -1,0 +1,387 @@
+[ENV] OPERATION STARTED
+[GEN]: DATA SENT TO DRIVER
+--------------------------START---------------------------------------
+The Display getting from  Generator
+The value of reset = 0   load = 0        mode = 0        din = 8
+---------------------------END----------------------------------------
+[GEN]: DATA SENT TO DRIVER
+--------------------------START---------------------------------------
+The Display getting from  Generator
+The value of reset = 0   load = 0        mode = 1        din = 8
+---------------------------END----------------------------------------
+[GEN]: DATA SENT TO DRIVER
+--------------------------START---------------------------------------
+The Display getting from  Generator
+The value of reset = 0   load = 0        mode = 0        din = 5
+---------------------------END----------------------------------------
+[GEN]: DATA SENT TO DRIVER
+--------------------------START---------------------------------------
+The Display getting from  Generator
+The value of reset = 0   load = 0        mode = 1        din = 9
+---------------------------END----------------------------------------
+[GEN]: DATA SENT TO DRIVER
+--------------------------START---------------------------------------
+The Display getting from  Generator
+The value of reset = 0   load = 0        mode = 1        din = 7
+---------------------------END----------------------------------------
+[GEN]: DATA SENT TO DRIVER
+--------------------------START---------------------------------------
+The Display getting from  Generator
+The value of reset = 0   load = 0        mode = 1        din = 9
+---------------------------END----------------------------------------
+[GEN]: DATA SENT TO DRIVER
+--------------------------START---------------------------------------
+The Display getting from  Generator
+The value of reset = 0   load = 0        mode = 1        din = 8
+---------------------------END----------------------------------------
+[GEN]: DATA SENT TO DRIVER
+--------------------------START---------------------------------------
+The Display getting from  Generator
+The value of reset = 0   load = 1        mode = 1        din = 4
+---------------------------END----------------------------------------
+[GEN]: DATA SENT TO DRIVER
+--------------------------START---------------------------------------
+The Display getting from  Generator
+The value of reset = 0   load = 1        mode = 0        din = 8
+---------------------------END----------------------------------------
+[GEN]: DATA SENT TO DRIVER
+--------------------------START---------------------------------------
+The Display getting from  Generator
+The value of reset = 0   load = 0        mode = 1        din = 8
+---------------------------END----------------------------------------
+[WDRIV] : Driving  started (WRITE)
+[WDRIV] : Driving  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write-Driver
+The value of reset = 0   load = 0        mode = 0        din = 8
+---------------------------END----------------------------------------
+[WDRIV] : Driving  started (WRITE)
+[WDMON] : Monitoring  started (WRITE)
+[WDMON] : Monitoring  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write_MONITER
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
+[RDMON] : Monitoring  started (READ)
+[CHECK_1]: 2. The counter op is 0
+++++++++DUT-COUNTER+++++++
+The DUT-COUNTER is 0
+++++++++END-COUNTER+++++++
+[RDMON] : Monitoring  ended (READ)
+--------------------------START---------------------------------------
+The Display getting from Read Monitor
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
+--------------------------START---------------------------------------
+The Display getting from Refrence Model
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
++++++++INNER-COUNTER++++++
+The COUNT_REF is 0
+++++++++END-COUNTER+++++++
+--------------------------------RESULT---------------------------------------
+[SCR] : DATA VALID COUNT = 1
+-------------------------------END-RESULT------------------------------------
+[WDRIV] : Driving  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write-Driver
+The value of reset = 0   load = 0        mode = 1        din = 8
+---------------------------END----------------------------------------
+[WDRIV] : Driving  started (WRITE)
+[WDMON] : Monitoring  started (WRITE)
+[WDMON] : Monitoring  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write_MONITER
+The value of reset = 0   load = 0        mode = 0        din = 8
+---------------------------END----------------------------------------
+[RDMON] : Monitoring  started (READ)
+[CHECK_1]: 1.The counter op is 11
+++++++++DUT-COUNTER+++++++
+The DUT-COUNTER is 11
+++++++++END-COUNTER+++++++
+[RDMON] : Monitoring  ended (READ)
+--------------------------START---------------------------------------
+The Display getting from Read Monitor
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
+--------------------------START---------------------------------------
+The Display getting from Refrence Model
+The value of reset = 0   load = 0        mode = 0        din = 8
+---------------------------END----------------------------------------
++++++++INNER-COUNTER++++++
+The COUNT_REF is 11
+++++++++END-COUNTER+++++++
+--------------------------------RESULT---------------------------------------
+[SCR] : DATA VALID COUNT = 2
+-------------------------------END-RESULT------------------------------------
+[WDRIV] : Driving  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write-Driver
+The value of reset = 0   load = 0        mode = 0        din = 5
+---------------------------END----------------------------------------
+[WDRIV] : Driving  started (WRITE)
+[WDMON] : Monitoring  started (WRITE)
+[WDMON] : Monitoring  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write_MONITER
+The value of reset = 0   load = 0        mode = 1        din = 8
+---------------------------END----------------------------------------
+[RDMON] : Monitoring  started (READ)
+[CHECK_1]: 1.The counter op is 10
+++++++++DUT-COUNTER+++++++
+The DUT-COUNTER is 10
+++++++++END-COUNTER+++++++
+[RDMON] : Monitoring  ended (READ)
+--------------------------START---------------------------------------
+The Display getting from Read Monitor
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
+--------------------------START---------------------------------------
+The Display getting from Refrence Model
+The value of reset = 0   load = 0        mode = 1        din = 8
+---------------------------END----------------------------------------
++++++++INNER-COUNTER++++++
+The COUNT_REF is 10
+++++++++END-COUNTER+++++++
+--------------------------------RESULT---------------------------------------
+[SCR] : DATA VALID COUNT = 3
+-------------------------------END-RESULT------------------------------------
+[WDRIV] : Driving  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write-Driver
+The value of reset = 0   load = 0        mode = 1        din = 9
+---------------------------END----------------------------------------
+[WDRIV] : Driving  started (WRITE)
+[WDMON] : Monitoring  started (WRITE)
+[WDMON] : Monitoring  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write_MONITER
+The value of reset = 0   load = 0        mode = 0        din = 5
+---------------------------END----------------------------------------
+[RDMON] : Monitoring  started (READ)
+[CHECK_1]: 1.The counter op is 11
+++++++++DUT-COUNTER+++++++
+The DUT-COUNTER is 11
+++++++++END-COUNTER+++++++
+[RDMON] : Monitoring  ended (READ)
+--------------------------START---------------------------------------
+The Display getting from Read Monitor
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
+--------------------------START---------------------------------------
+The Display getting from Refrence Model
+The value of reset = 0   load = 0        mode = 0        din = 5
+---------------------------END----------------------------------------
++++++++INNER-COUNTER++++++
+The COUNT_REF is 11
+++++++++END-COUNTER+++++++
+--------------------------------RESULT---------------------------------------
+[SCR] : DATA VALID COUNT = 4
+-------------------------------END-RESULT------------------------------------
+[WDRIV] : Driving  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write-Driver
+The value of reset = 0   load = 0        mode = 1        din = 7
+---------------------------END----------------------------------------
+[WDRIV] : Driving  started (WRITE)
+[WDMON] : Monitoring  started (WRITE)
+[WDMON] : Monitoring  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write_MONITER
+The value of reset = 0   load = 0        mode = 1        din = 9
+---------------------------END----------------------------------------
+[RDMON] : Monitoring  started (READ)
+[CHECK_1]: 1.The counter op is 10
+++++++++DUT-COUNTER+++++++
+The DUT-COUNTER is 10
+++++++++END-COUNTER+++++++
+[RDMON] : Monitoring  ended (READ)
+--------------------------START---------------------------------------
+The Display getting from Read Monitor
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
+--------------------------START---------------------------------------
+The Display getting from Refrence Model
+The value of reset = 0   load = 0        mode = 1        din = 9
+---------------------------END----------------------------------------
++++++++INNER-COUNTER++++++
+The COUNT_REF is 10
+++++++++END-COUNTER+++++++
+--------------------------------RESULT---------------------------------------
+[SCR] : DATA VALID COUNT = 5
+-------------------------------END-RESULT------------------------------------
+[WDRIV] : Driving  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write-Driver
+The value of reset = 0   load = 0        mode = 1        din = 9
+---------------------------END----------------------------------------
+[WDRIV] : Driving  started (WRITE)
+[WDMON] : Monitoring  started (WRITE)
+[WDMON] : Monitoring  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write_MONITER
+The value of reset = 0   load = 0        mode = 1        din = 7
+---------------------------END----------------------------------------
+[RDMON] : Monitoring  started (READ)
+[CHECK_1]: 1.The counter op is 11
+++++++++DUT-COUNTER+++++++
+The DUT-COUNTER is 11
+++++++++END-COUNTER+++++++
+[RDMON] : Monitoring  ended (READ)
+--------------------------START---------------------------------------
+The Display getting from Read Monitor
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
+--------------------------START---------------------------------------
+The Display getting from Refrence Model
+The value of reset = 0   load = 0        mode = 1        din = 7
+---------------------------END----------------------------------------
++++++++INNER-COUNTER++++++
+The COUNT_REF is 11
+++++++++END-COUNTER+++++++
+--------------------------------RESULT---------------------------------------
+[SCR] : DATA VALID COUNT = 6
+-------------------------------END-RESULT------------------------------------
+[WDRIV] : Driving  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write-Driver
+The value of reset = 0   load = 0        mode = 1        din = 8
+---------------------------END----------------------------------------
+[WDRIV] : Driving  started (WRITE)
+[WDMON] : Monitoring  started (WRITE)
+[WDMON] : Monitoring  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write_MONITER
+The value of reset = 0   load = 0        mode = 1        din = 9
+---------------------------END----------------------------------------
+[RDMON] : Monitoring  started (READ)
+[CHECK_1]: 2. The counter op is 0
+++++++++DUT-COUNTER+++++++
+The DUT-COUNTER is 0
+++++++++END-COUNTER+++++++
+[RDMON] : Monitoring  ended (READ)
+--------------------------START---------------------------------------
+The Display getting from Read Monitor
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
+--------------------------START---------------------------------------
+The Display getting from Refrence Model
+The value of reset = 0   load = 0        mode = 1        din = 9
+---------------------------END----------------------------------------
++++++++INNER-COUNTER++++++
+The COUNT_REF is 0
+++++++++END-COUNTER+++++++
+--------------------------------RESULT---------------------------------------
+[SCR] : DATA VALID COUNT = 7
+-------------------------------END-RESULT------------------------------------
+MODE_CHECK_1 PASS
+MODE_CHECK_2 PASS
+[WDRIV] : Driving  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write-Driver
+The value of reset = 0   load = 1        mode = 1        din = 4
+---------------------------END----------------------------------------
+[WDRIV] : Driving  started (WRITE)
+[WDMON] : Monitoring  started (WRITE)
+[WDMON] : Monitoring  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write_MONITER
+The value of reset = 0   load = 0        mode = 1        din = 8
+---------------------------END----------------------------------------
+[RDMON] : Monitoring  started (READ)
+[CHECK_1]: 1.The counter op is 1
+++++++++DUT-COUNTER+++++++
+The DUT-COUNTER is 1
+++++++++END-COUNTER+++++++
+[RDMON] : Monitoring  ended (READ)
+--------------------------START---------------------------------------
+The Display getting from Read Monitor
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
+--------------------------START---------------------------------------
+The Display getting from Refrence Model
+The value of reset = 0   load = 0        mode = 1        din = 8
+---------------------------END----------------------------------------
++++++++INNER-COUNTER++++++
+The COUNT_REF is 1
+++++++++END-COUNTER+++++++
+--------------------------------RESULT---------------------------------------
+[SCR] : DATA VALID COUNT = 8
+-------------------------------END-RESULT------------------------------------
+[WDRIV] : Driving  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write-Driver
+The value of reset = 0   load = 1        mode = 0        din = 8
+---------------------------END----------------------------------------
+[WDRIV] : Driving  started (WRITE)
+[WDMON] : Monitoring  started (WRITE)
+[WDMON] : Monitoring  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write_MONITER
+The value of reset = 0   load = 1        mode = 1        din = 4
+---------------------------END----------------------------------------
+[RDMON] : Monitoring  started (READ)
+[CHECK_1]: 1.The counter op is 2
+++++++++DUT-COUNTER+++++++
+The DUT-COUNTER is 2
+++++++++END-COUNTER+++++++
+[RDMON] : Monitoring  ended (READ)
+--------------------------START---------------------------------------
+The Display getting from Read Monitor
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
+--------------------------START---------------------------------------
+The Display getting from Refrence Model
+The value of reset = 0   load = 1        mode = 1        din = 4
+---------------------------END----------------------------------------
++++++++INNER-COUNTER++++++
+The COUNT_REF is 2
+++++++++END-COUNTER+++++++
+--------------------------------RESULT---------------------------------------
+[SCR] : DATA VALID COUNT = 9
+-------------------------------END-RESULT------------------------------------
+[WDRIV] : Driving  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write-Driver
+The value of reset = 0   load = 0        mode = 1        din = 8
+---------------------------END----------------------------------------
+[WDMON] : Monitoring  started (WRITE)
+[WDMON] : Monitoring  ended (WRITE)
+--------------------------START---------------------------------------
+The Display getting from Write_MONITER
+The value of reset = 0   load = 1        mode = 0        din = 8
+---------------------------END----------------------------------------
+[RDMON] : Monitoring  started (READ)
+[CHECK_1]: 1.The counter op is 4
+++++++++DUT-COUNTER+++++++
+The DUT-COUNTER is 4
+++++++++END-COUNTER+++++++
+[RDMON] : Monitoring  ended (READ)
+--------------------------START---------------------------------------
+The Display getting from Read Monitor
+The value of reset = 0   load = 0        mode = 0        din = 0
+---------------------------END----------------------------------------
+--------------------------START---------------------------------------
+The Display getting from Refrence Model
+The value of reset = 0   load = 1        mode = 0        din = 8
+---------------------------END----------------------------------------
++++++++INNER-COUNTER++++++
+The COUNT_REF is 4
+++++++++END-COUNTER+++++++
+--------------------------------RESULT---------------------------------------
+[SCR] : DATA VALID COUNT = 10
+-------------------------------END-RESULT------------------------------------
+[ENV] OPERATION ENDED
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+====================SCOREBOARD=====================
+Data recived by Refrence Model are : 10
+Data recived by Read Monitor are : 10
+Data Correct are : 10
+Data Incorrect are : 0
+Data Verified are : 10
+Coverage Report is 80
+The Values from Read_Monitor is '{4, 2, 1, 0, 11, 10, 11, 10, 11, 0}
+The Values from Refrence_Model is '{4, 2, 1, 0, 11, 10, 11, 10, 11, 0}
+==================SCOREBOARD-ENDS==================
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[ENV] REPORT GENERATED
